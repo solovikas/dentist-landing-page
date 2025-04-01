@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/dentist-landing-page/static/css/main.ab9e4af0.css",
+    "main.css": "/dentist-landing-page/static/css/main.fef59780.css",
     "main.js": "/dentist-landing-page/static/js/main.0478d5d1.js",
     "static/js/488.8fa01352.chunk.js": "/dentist-landing-page/static/js/488.8fa01352.chunk.js",
-    "static/media/main-img.jpg": "/dentist-landing-page/static/media/main-img.8d3bcb514164343c43b7.jpg",
     "static/media/banner-1.jpg": "/dentist-landing-page/static/media/banner-1.07c861d99b59b3630699.jpg",
     "static/media/img-5.jpg": "/dentist-landing-page/static/media/img-5.72ab00543aa2cd02f9a1.jpg",
     "static/media/img-4.jpg": "/dentist-landing-page/static/media/img-4.2fecfa0b0c79c3d3c982.jpg",
@@ -14,6 +13,7 @@
     "static/media/img-1.jpg": "/dentist-landing-page/static/media/img-1.0b58ee798ae7cf2d15c8.jpg",
     "static/media/img-9.jpg": "/dentist-landing-page/static/media/img-9.4a156a2f18c79cb057c6.jpg",
     "static/media/img-8.jpg": "/dentist-landing-page/static/media/img-8.df44fe695efe0b9875e6.jpg",
+    "static/media/main-img.jpg": "/dentist-landing-page/static/media/main-img.60dc33ea16d5441032a0.jpg",
     "static/media/dental-patch-1.svg": "/dentist-landing-page/static/media/dental-patch-1.c4499bb7588979ed88151fd2aeff59eb.svg",
     "static/media/dental-patch-2.svg": "/dentist-landing-page/static/media/dental-patch-2.147336c012f47d1973c0.svg",
     "static/media/image 3.jpg": "/dentist-landing-page/static/media/image 3.49fdab1be9b95c7e287a.jpg",
@@ -30,12 +30,12 @@
     "static/media/inst.svg": "/dentist-landing-page/static/media/inst.f51a9b7ed13645c6fcd160f72c7a0a16.svg",
     "static/media/arrow-left.svg": "/dentist-landing-page/static/media/arrow-left.c0ce05c098d8d1bc4bb0de13817e92f3.svg",
     "static/media/arrow-right.svg": "/dentist-landing-page/static/media/arrow-right.04fb0a29d1aeea329941c3b2e9e27453.svg",
-    "main.ab9e4af0.css.map": "/dentist-landing-page/static/css/main.ab9e4af0.css.map",
+    "main.fef59780.css.map": "/dentist-landing-page/static/css/main.fef59780.css.map",
     "main.0478d5d1.js.map": "/dentist-landing-page/static/js/main.0478d5d1.js.map",
     "488.8fa01352.chunk.js.map": "/dentist-landing-page/static/js/488.8fa01352.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab9e4af0.css",
+    "static/css/main.fef59780.css",
     "static/js/main.0478d5d1.js"
   ]
 }
