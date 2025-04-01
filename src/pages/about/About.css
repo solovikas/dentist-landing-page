@@ -1,0 +1,175 @@
+.about {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: fit-content;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  z-index: 10;
+}
+
+.to-hide {
+  position: absolute;
+  width: 676px;
+  height: fit-content;
+  top: 50px;
+  right: 4vw;
+  z-index: 0;
+}
+
+.to-hide img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--transparent-grey);
+  backdrop-filter: blur(12px);
+  color: var(--white);
+  font-family: Montserrat, sans-serif;
+  text-align: left;
+  width: 100%;
+  line-height: 60px;
+  font-weight: 500;
+  padding: 60px;
+  padding-top: 180px;
+  padding-bottom: 180px;
+  z-index: 10;
+  letter-spacing: 1%;
+}
+
+@media (min-width: 2560px) {
+  .about {
+    gap: 120px;
+  }
+
+  .about-text {
+    font-size: 2.75rem;
+  }
+}
+
+@media (max-width: 2560px) {
+  .about {
+    gap: 120px;
+  }
+
+  .about-text {
+    font-size: 2.75rem;
+  }
+}
+
+@media (max-width: 1920px) {
+  .about {
+    gap: 90px;
+  }
+
+  .to-hide {
+    width: 507px;
+    top: 38px;
+  }
+
+  .about-text {
+    font-size: 2rem;
+    padding: 45px;
+    padding-top: 135px;
+    padding-bottom: 135px;
+    gap: 15px;
+    line-height: 45px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .about {
+    gap: 68px;
+  }
+
+  .to-hide {
+    width: 380px;
+    top: 28px;
+  }
+
+  .about-text {
+    font-size: 1.5rem;
+    padding: 33px;
+    padding-top: 101px;
+    padding-bottom: 101px;
+    gap: 11px;
+    line-height: 34px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .about {
+    gap: 60px;
+  }
+
+  .to-hide {
+    width: 338px;
+    top: 25px;
+  }
+
+  .about-text {
+    font-size: 1.375rem;
+    padding: 30px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    gap: 10px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about {
+    gap: 46px;
+  }
+
+  .to-hide {
+    width: 270px;
+    top: 20px;
+  }
+
+  .about-text {
+    font-size: 1.125rem;
+    padding: 24px;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    gap: 8px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    gap: 36px;
+  }
+
+  .to-hide {
+    width: 202px;
+    top: 15px;
+  }
+
+  .about-text {
+    font-size: 0.875rem;
+    padding: 18px;
+    padding-top: 54px;
+    padding-bottom: 54px;
+    gap: 6px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 640px) {
+  .to-hide {
+    display: none;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+}

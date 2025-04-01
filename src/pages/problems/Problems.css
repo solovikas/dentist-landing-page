@@ -1,0 +1,205 @@
+.problems {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  align-self: center;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  gap: 120px;
+  z-index: 10;
+}
+
+.problems-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, auto);
+  gap: 26px;
+  justify-content: stretch;
+  align-items: stretch;
+}
+
+.problem-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  height: fit-content;
+  padding-bottom: 40px;
+  gap: 4vw;
+}
+
+.problem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  height: fit-content;
+  gap: 40px;
+}
+
+.problem p {
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 50px;
+  color: var(--blue);
+  font-size: 2.25rem;
+}
+
+.problem span {
+  display: block;
+  width: fit-content;
+  color: #d4d4d4;
+  white-space: nowrap;
+  margin-bottom: 10px;
+  transition: transform 0.2s ease-in-out;
+  cursor: default;
+}
+
+.problem span:hover {
+  transform: scale(1.2);
+  transform-origin: center;
+}
+
+.line {
+  height: 2px;
+  width: 100%;
+  background-color: var(--light-blue);
+}
+
+@media (min-width: 2560px) {
+}
+
+@media (max-width: 2560px) {
+}
+
+@media (max-width: 1920px) {
+  .problems {
+    gap: 90px;
+  }
+
+  .problems-list {
+    gap: 16px;
+  }
+
+  .problem {
+    gap: 30px;
+  }
+  .problem p {
+    line-height: 40px;
+    font-size: 1.75rem;
+  }
+  .problem span {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .problems {
+    gap: 68px;
+  }
+
+  .problems-list {
+    gap: 14px;
+  }
+
+  .problem {
+    gap: 24px;
+  }
+  .problem p {
+    line-height: 30px;
+    font-size: 1.25rem;
+  }
+  .problem span {
+    margin-bottom: 18px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .problems {
+    gap: 60px;
+  }
+
+  .problems-list {
+    gap: 8px;
+  }
+
+  .problem {
+    gap: 20px;
+  }
+  .problem p {
+    line-height: 28px;
+    font-size: 1.125rem;
+  }
+  .problem span {
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .problems {
+    gap: 46px;
+  }
+
+  .problems-list {
+    gap: 0;
+  }
+
+  .problem {
+    gap: 16px;
+  }
+  .problem p {
+    line-height: 24px;
+    font-size: 0.875rem;
+  }
+  .problem span {
+    margin-bottom: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .problems {
+    gap: 36px;
+  }
+
+  .problems-list {
+    gap: 0;
+  }
+
+  .problem {
+    gap: 12px;
+  }
+  .problem p {
+    line-height: 18px;
+    font-size: 0.75rem;
+  }
+  .problem span {
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 640px) {
+  .problems-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+  }
+  .problem-row {
+    flex-direction: column;
+    padding: 0;
+    gap: 20px;
+  }
+
+  .problem > p > br {
+    display: none;
+  }
+
+  .problem span {
+    margin-bottom: 6px;
+  }
+}

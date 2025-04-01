@@ -1,0 +1,230 @@
+.supremacies {
+  width: 100vw;
+  padding: 0 10vw 0 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: fit-content;
+  gap: 120px;
+}
+
+.supremacies-container {
+  background-image: url(../../assets/dental-patch-2.svg);
+  background-size: 114% auto;
+  background-position: 50% 42%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.supremacies-blocks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  width: 80%;
+  gap: 6%;
+  row-gap: 6%;
+  height: fit-content;
+  justify-self: center;
+}
+
+.supremacies-blocks article {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--transparent-grey);
+  backdrop-filter: blur(12px);
+  padding: 5% 10%;
+  color: var(--white);
+  height: auto;
+  aspect-ratio: 17 / 16;
+  gap: 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.supremacies-blocks article:hover {
+  transform: scale(1.03);
+  transform-origin: center;
+}
+
+.supremacies-blocks h3,
+.supremacies-blocks p {
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+  text-align: center;
+  height: 14%;
+}
+
+.supremacies-blocks p {
+  font-weight: 400;
+  letter-spacing: 1%;
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 2560px) {
+}
+
+@media (max-width: 2560px) {
+}
+
+@media (max-width: 2150px) {
+  .supremacies-blocks article:nth-child(2) p {
+    font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 2040px) {
+  .supremacies-blocks article:nth-child(2) p {
+    font-size: 2.125rem;
+  }
+}
+
+@media (max-width: 1920px) {
+  .supremacies {
+    gap: 90px;
+  }
+
+  .supremacies-blocks h3,
+  .supremacies-blocks p,
+  .supremacies-blocks article:nth-child(2) p {
+    font-size: 1.875rem;
+  }
+}
+
+@media (max-width: 1750px) {
+  .supremacies-blocks article:nth-child(2) p {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 1520px) {
+  .supremacies-blocks article:nth-child(2) p {
+    font-size: 1.625rem;
+  }
+}
+
+@media (max-width: 1440px) {
+  .supremacies {
+    gap: 68px;
+  }
+
+  .supremacies-blocks h3,
+  .supremacies-blocks p,
+  .supremacies-blocks article:nth-child(2) p {
+    font-size: 1.375rem;
+  }
+}
+
+@media (max-width: 1340px) {
+  .supremacies-blocks article:nth-child(2) p {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  .supremacies {
+    gap: 60px;
+  }
+
+  .supremacies-blocks h3,
+  .supremacies-blocks p,
+  .supremacies-blocks article:nth-child(2) p {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 1070px) {
+  .supremacies-blocks article:nth-child(2) p {
+    font-size: 1.1625rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .supremacies {
+    gap: 46px;
+  }
+
+  .supremacies-blocks h3,
+  .supremacies-blocks p,
+  .supremacies-blocks article:nth-child(2) p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 960px) {
+  .supremacies-blocks article:nth-child(2) p {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .supremacies {
+    gap: 36px;
+  }
+
+  .supremacies-blocks h3,
+  .supremacies-blocks p,
+  .supremacies-blocks article:nth-child(2) p {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .supremacies-blocks article:nth-child(2) p {
+    font-size: 0.7rem;
+  }
+
+  .supremacies-blocks article:nth-child(4) h3 {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .supremacies-blocks {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 1%;
+    height: fit-content;
+    justify-content: flex-start;
+    align-items: center;
+    justify-self: unset;
+  }
+
+  .supremacies-blocks article:nth-child(odd) {
+    background-color: var(--white);
+    color: var(--light-blue);
+  }
+
+  .supremacies-blocks article:nth-child(even) {
+    background-color: var(--light-blue);
+    color: var(--white);
+  }
+
+  .supremacies-container {
+    background-image: none;
+  }
+
+  .supremacies-blocks article:hover {
+    transform: unset;
+    transform-origin: unset;
+  }
+}
+
+@media (max-width: 480px) {
+  .supremacies-blocks h3,
+  .supremacies-blocks p,
+  .supremacies-blocks article:nth-child(2) p {
+    font-size: 0.75rem;
+  }
+}

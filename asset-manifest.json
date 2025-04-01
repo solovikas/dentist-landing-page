@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/dentist-landing-page/static/css/main.ab9e4af0.css",
+    "main.js": "/dentist-landing-page/static/js/main.0478d5d1.js",
+    "static/js/488.8fa01352.chunk.js": "/dentist-landing-page/static/js/488.8fa01352.chunk.js",
+    "static/media/main-img.jpg": "/dentist-landing-page/static/media/main-img.8d3bcb514164343c43b7.jpg",
+    "static/media/banner-1.jpg": "/dentist-landing-page/static/media/banner-1.07c861d99b59b3630699.jpg",
+    "static/media/img-5.jpg": "/dentist-landing-page/static/media/img-5.72ab00543aa2cd02f9a1.jpg",
+    "static/media/img-4.jpg": "/dentist-landing-page/static/media/img-4.2fecfa0b0c79c3d3c982.jpg",
+    "static/media/img-2.jpg": "/dentist-landing-page/static/media/img-2.d3347902dce5ce32c5b2.jpg",
+    "static/media/img-6.jpg": "/dentist-landing-page/static/media/img-6.4765dfcd1d0f757bd18b.jpg",
+    "static/media/img-3.jpg": "/dentist-landing-page/static/media/img-3.3bf01e9f8d00f82ee725.jpg",
+    "static/media/img-7.jpg": "/dentist-landing-page/static/media/img-7.53e0b665c7a1c14aaa20.jpg",
+    "static/media/img-1.jpg": "/dentist-landing-page/static/media/img-1.0b58ee798ae7cf2d15c8.jpg",
+    "static/media/img-9.jpg": "/dentist-landing-page/static/media/img-9.4a156a2f18c79cb057c6.jpg",
+    "static/media/img-8.jpg": "/dentist-landing-page/static/media/img-8.df44fe695efe0b9875e6.jpg",
+    "static/media/dental-patch-1.svg": "/dentist-landing-page/static/media/dental-patch-1.c4499bb7588979ed88151fd2aeff59eb.svg",
+    "static/media/dental-patch-2.svg": "/dentist-landing-page/static/media/dental-patch-2.147336c012f47d1973c0.svg",
+    "static/media/image 3.jpg": "/dentist-landing-page/static/media/image 3.49fdab1be9b95c7e287a.jpg",
+    "static/media/image 1.jpg": "/dentist-landing-page/static/media/image 1.cb2b0c077a44b7d37ab0.jpg",
+    "static/media/image 4.jpg": "/dentist-landing-page/static/media/image 4.e46c8c79fd9dbaaa6833.jpg",
+    "static/media/image 2.jpg": "/dentist-landing-page/static/media/image 2.c636038ac592c505283e.jpg",
+    "static/media/osstem.svg": "/dentist-landing-page/static/media/osstem.f733e0b63f9c6cd7174b3e915ef5b60c.svg",
+    "static/media/header-logo.svg": "/dentist-landing-page/static/media/header-logo.97ac3800fc52b620aea3a3ddfa29301e.svg",
+    "static/media/tg.svg": "/dentist-landing-page/static/media/tg.5bca48f1c542e4746c3d0256744e51a4.svg",
+    "static/media/mis.svg": "/dentist-landing-page/static/media/mis.2fa14dc900fadb0f597d5728c2fdbe18.svg",
+    "static/media/megagen.svg": "/dentist-landing-page/static/media/megagen.ee31f072effefcfd40373b220dbf85b7.svg",
+    "index.html": "/dentist-landing-page/index.html",
+    "static/media/straumann.svg": "/dentist-landing-page/static/media/straumann.c73142a7a8bc90c03c21e2fe303104b3.svg",
+    "static/media/inst.svg": "/dentist-landing-page/static/media/inst.f51a9b7ed13645c6fcd160f72c7a0a16.svg",
+    "static/media/arrow-left.svg": "/dentist-landing-page/static/media/arrow-left.c0ce05c098d8d1bc4bb0de13817e92f3.svg",
+    "static/media/arrow-right.svg": "/dentist-landing-page/static/media/arrow-right.04fb0a29d1aeea329941c3b2e9e27453.svg",
+    "main.ab9e4af0.css.map": "/dentist-landing-page/static/css/main.ab9e4af0.css.map",
+    "main.0478d5d1.js.map": "/dentist-landing-page/static/js/main.0478d5d1.js.map",
+    "488.8fa01352.chunk.js.map": "/dentist-landing-page/static/js/488.8fa01352.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab9e4af0.css",
+    "static/js/main.0478d5d1.js"
+  ]
+}

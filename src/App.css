@@ -1,0 +1,91 @@
+:root {
+  --white: #fefefe;
+  --red: #4d0013;
+  --transparent-grey: rgb(30, 30, 30, 24%);
+  --transparent-grey-darken: rgb(30, 30, 30, 44%);
+  --text-grey: #a3a5a4;
+  --blue: #4f5e75;
+  --light-blue: #aabac9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: default;
+}
+
+.app {
+  display: grid;
+  width: 100vw;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 280px;
+}
+
+h2 {
+  font-family: Inter, sans-serif;
+  font-weight: 300;
+  color: var(--red);
+  letter-spacing: 3%;
+  text-align: center;
+}
+
+@media (min-width: 2560px) {
+  h2 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 2560px) {
+  h2 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 1920px) {
+  h2 {
+    font-size: 3.75rem;
+  }
+  .app {
+    gap: 210px;
+  }
+}
+
+@media (max-width: 1440px) {
+  h2 {
+    font-size: 2.75rem;
+  }
+
+  .app {
+    gap: 160px;
+  }
+}
+
+@media (max-width: 1280px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  .app {
+    gap: 140px;
+  }
+}
+
+@media (max-width: 1024px) {
+  h2 {
+    font-size: 2rem;
+  }
+  .app {
+    gap: 112px;
+  }
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .app {
+    gap: 84px;
+  }
+}

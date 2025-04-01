@@ -1,0 +1,181 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+  width: 100vw;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  position: fixed;
+  top: 0;
+  transition: all 260ms ease-out;
+  z-index: 1000;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.header-content img {
+  height: auto;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  letter-spacing: 1%;
+  position: relative;
+}
+
+.link {
+  white-space: nowrap;
+  margin: 0;
+  color: var(--text-grey);
+  letter-spacing: 1%;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.link:hover {
+  transform: scale(1.04);
+  transform-origin: center;
+  color: var(--red);
+}
+
+.link:active {
+  color: var(--red);
+}
+
+@media (min-width: 2560px) {
+  .header {
+    height: 320px;
+  }
+
+  .header-content {
+    flex-direction: row;
+  }
+
+  .header-content img {
+    width: 40rem;
+  }
+
+  nav {
+    gap: 6vw;
+    font-size: 2.75rem;
+  }
+}
+
+@media (max-width: 2560px) {
+  .header {
+    height: 320px;
+  }
+
+  .header-content {
+    flex-direction: row;
+  }
+
+  .header-content img {
+    width: 40rem;
+  }
+
+  nav {
+    gap: 6vw;
+    font-size: 2.75rem;
+  }
+}
+
+@media (max-width: 1920px) {
+  .header {
+    height: 240px;
+  }
+
+  .header-content img {
+    width: 30rem;
+  }
+
+  nav {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1440px) {
+  .header {
+    height: 160px;
+  }
+
+  .header-content img {
+    width: 22rem;
+  }
+
+  nav {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  .header {
+    height: 160px;
+  }
+
+  .header-content img {
+    width: 20rem;
+  }
+
+  nav {
+    font-size: 1.375rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    height: 130px;
+  }
+
+  .header-content img {
+    width: 16rem;
+  }
+
+  nav {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 100px;
+  }
+
+  .header-content img {
+    width: 12rem;
+  }
+
+  nav {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .header {
+    height: 150px;
+  }
+
+  .header-content {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  nav {
+    justify-content: space-between;
+  }
+}
