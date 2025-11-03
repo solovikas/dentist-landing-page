@@ -1,6 +1,6 @@
 import logo from "../../assets/header-logo.svg";
 import "./Header.css";
-import React, { createContext, useEffect, useState, useRef } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { useMainRef } from "../main/Main";
 import { useHeaderHeight } from "../main/Main";
 import { Link } from "react-router-dom";

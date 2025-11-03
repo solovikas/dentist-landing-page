@@ -4,7 +4,7 @@
   width: 100vw;
   height: fit-content;
   background-color: var(--white);
-  background-image: url(../../assets/banner-1.jpg);
+  background-image: url(../../assets/banner-1.webp);
   background-position: top center;
   background-repeat: no-repeat;
   object-fit: cover;
@@ -30,8 +30,8 @@
   font-family: Inter, sans-serif;
   font-weight: 300;
   color: var(--red);
-  line-height: auto;
-  letter-spacing: 2%;
+  line-height: normal;
+  letter-spacing: normal;
 }
 
 .main-info div {
@@ -42,7 +42,7 @@
 .main-info div p {
   font-family: Montserrat, sans-serif;
   font-weight: 400;
-  line-height: auto;
+  line-height: normal;
   color: var(--blue);
 }
 
@@ -73,7 +73,7 @@
 
 .main-img {
   background-image: linear-gradient(rgba(79, 94, 117, 0), rgba(79, 94, 117)),
-    url(../../assets/main-img.jpg);
+    url(../../assets/main-img.webp);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 100% 50%, cover;
